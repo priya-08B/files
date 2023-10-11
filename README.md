@@ -40,37 +40,46 @@ PHASE 2:
  PUBLIC TRANSPORT OPTIMIZATION
 
 INNOVATION 
+
 Innovations for public transport optimization can greatly improve efficiency, accessibility, and sustainability. Here are some key innovations in this area.
 
 Step1: Introduction
 
 Overview 
+
 The "Transit Sense" IOT project is aimed at revolutionizing urban public transportation through real-time data and advanced analytics. It focuses on optimizing public transport routes, enhancing passenger experiences, reducing congestion, and promoting eco-friendly transportation options.
 
 Objective
+
 This document outlines the step-by-step process of incorporating machine learning algorithms into the "Transit Sense" project to improve the accuracy of arrival time predictions. This enhancement will provide passengers with more reliable and timely information, ultimately improving the overall transit experience.
 
 Step2: Data Collection and Preparation
 
-Gather Historical Data: 
+ Gather Historical Data: 
+
  Detailed explanation of collecting historical data on public transport routes, including departure times, actual arrival times, traffic conditions, and weather data.
 
 Data Preprocessing:
+
  How to clean and preprocess the dataset, handling missing values,outliers, and data cleaning techniques.
 
 Feature Engineering: 
+
  Creating meaningful features for machine learning, including time-related features and conversion of categorical variables.
  
  Real-Time Data Integration: 
+
  Developing a real-time data pipeline to provide current traffic conditions, weather updates, and vehicle locations to the machine learning model.
 
 Step 3: Machine Learning Model Development 
 
  Model Selection: 
+
  Explanation of selecting an appropriate machine learning algorithm. (e.g., Random Forest, Gradient Boosting, LSTM) for 
 arrival time prediction.
  
  Model Training: 
+
  How to split the dataset into training and testing sets and train the machine learning model using historical data.
  Model Evaluation: 
  Metrics and methods for evaluating the model's accuracy and performance, including MAE and RMSE.
@@ -78,19 +87,24 @@ arrival time prediction.
 Step 4: Real-Time Integration and Passenger Access
 
  Real-Time Data Integration: 
+
  Implementing a real-time data pipeline to feed current traffic conditions, weather updates, and vehicle locations to the machine learning model.
 
  Integration with Passenger Information Systems: 
+
  How to incorporate the machine learning model into passenger information systems, making predictions accessible to passengers through mobile apps and information displays.
 
 Step 5: Feedback Loop and Continuous Improvement
 
 Feedback Mechanism:
+
  Creating a feedback mechanism for passengers to report inaccuracies in arrival time predictions.
  
  Model Update and Iteration:
+
  How to use passenger feedback to continuously update and refine the machine learning model, ensuring its accuracy and 
 responsiveness.
 
 Step 6: Conclusion
+
 Summary of how the integration of machine learning improves arrival time predictions, benefiting both passengers and the public transport system.
