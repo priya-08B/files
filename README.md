@@ -113,17 +113,13 @@ Summary of how the integration of machine learning improves arrival time predict
 
 PHASE 3 - PUBLIC TRANSPORT OPTIMIZATION
 
+
 INTRODUCTION
 
-Optimizing public transport using Arduino is an exciting project. Simulating the 
-
-behavior of hardware components like ultrasonic sensors in software can be done 
-
-through virtual platforms. In this phase the system includes components such as 
-
-ESP32 Development Board, Ultrasonic Sensors (2x), LED, Blynk App, Resistors and 
-
+Optimizing public transport using Arduino is an exciting project. Simulating the behavior of hardware components like ultrasonic sensors in software can be done 
+through virtual platforms. In this phase the system includes components such as ESP32 Development Board, Ultrasonic Sensors (2x), LED, Blynk App, Resistors and 
 Wires. Here are the steps to simulate code using Wokwi.
+
 
 COMPONENTS
 
@@ -133,15 +129,11 @@ COMPONENTS
 
 3. LED: An LED (Light Emitting Diode) is used as a visual indicator. 
 
-4.Resistors and Wires: Resistors to limit the current flowing through the LED 
+4.Resistors and Wires: Resistors to limit the current flowing through the LED (typically a 220-330 ohm resistor) and jumper wires to connect the components on the breadboard.
 
-(typically a 220-330 ohm resistor) and jumper wires to connect the components 
 
-on the breadboard.
+5.Blynk App: The Blynk app is required to visualize the data and control the system remotely.
 
-5.Blynk App: The Blynk app is required to visualize the data and control the 
-
-system remotely.
 
 PROCEDURE: 
 
@@ -150,9 +142,8 @@ PROCEDURE:
 2. Board Support:
 
  - Open Arduino IDE.
--Add ESP32 board and Install ESP32 board package via Tools > Board > Boards 
 
-Manager.
+ -Add ESP32 board and Install ESP32 board package via Tools > Board > Boards Manager.
 
 - Select "ESP32 Dev Module".
 
@@ -296,7 +287,9 @@ inside = inside - 1;
 
 Blynk.virtualWrite(V1, left);
 
-Blynk.virtualWrite(V2, inside);dis2 = dis_new2;delay(1000);
+Blynk.virtualWrite(V2, inside);
+
+dis2 = dis_new2;delay(1000);
 
 }
 
@@ -334,9 +327,7 @@ timer.run();
 
 3.Hardware Setup:
 
- - Connect ultrasonic sensors to PINs 15, 14, 13, and 12 for TRIG1, ECHO1, TRIG2, 
-
-and ECHO2 respectively.
+ - Connect ultrasonic sensors to PINs 15, 14, 13, and 12 for TRIG1, ECHO1, TRIG2, and ECHO2 respectively.
 
  - Connect an LED's long leg to PIN 2 and short leg to ground.
 
@@ -346,36 +337,28 @@ and ECHO2 respectively.
 
  - Set device to "ESP32 Dev Board".
 
- - Obtain Auth Token via email and replace it.5.Testing:Add widgets for Virtual Pins V0, V1, and V2 to visualize the entered count, left 
+ - Obtain Auth Token via email and replace it.
+  
+5.Testing:
 
-count, and inside count respectively.
+  -Add widgets for Virtual Pins V0, V1, and V2 to visualize the entered count, left count, and inside count
+respectively.
 
  - LED on PIN 2 will indicate entry (ON) or exit (OFF).
 
- - Check Serial Monitor (Tools > Serial Monitor) for debug messages and sensor 
-
-readings.
+ - Check Serial Monitor (Tools > Serial Monitor) for debug messages and sensor readings.
 
 Simulation
 
-Code implementation: implemented the Arduino code to optimize the public 
-
-transport level.
+Code implementation: implemented the Arduino code to optimize the public transport level.
 
 Simulation: clicked the “simulate” button in Wokwi to start the simulation.
 
+
 CONCLUSION
 
-The presented project showcases a practical implementation of an object 
-
-detection system using ESP32 microcontroller and ultrasonic sensors, facilitated 
-
+The presented project showcases a practical implementation of an object detection system using ESP32 microcontroller and ultrasonic sensors, facilitated 
 by the Blynk IoT platform. 
 
-In conclusion, this project exemplifies the seamless integration of hardware, 
-
-software, and IoT technologies to create an efficient object detection and 
-
-counting system. By leveraging the power of the ESP32 microcontroller and Blynk 
-
-platform, it exemplifies the potential of IoT solutions in real-world applications,offering a glimpse into the future of smart, responsive systems.
+In conclusion, this project exemplifies the seamless integration of hardware,software, and IoT technologies to create an efficient object detection and 
+counting system. By leveraging the power of the ESP32 microcontroller and Blynk platform, it exemplifies the potential of IoT solutions in real-world applications,offering a glimpse into the future of smart, responsive systems.
