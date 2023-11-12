@@ -352,6 +352,8 @@ Simulation
 
 Code implementation: implemented the Arduino code to optimize the public transport level.
 
+![image](https://github.com/priya-08B/files/assets/146112760/13f8a39a-d4dc-49e3-bae1-230742891da0)
+
 Simulation: clicked the “simulate” button in Wokwi to start the simulation.
 
 
