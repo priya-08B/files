@@ -855,7 +855,11 @@ ESP32 Development Board: A powerful microcontroller board.
 Ultrasonic Sensors (2x): Used for distance measurement.
 
 LED: A visual indicator.
+
+
+
 ![image](https://github.com/priya-08B/files/assets/146112760/04a5ffdb-955d-457d-adb6-c4d1c79347b0)
+
 
 PLATFORM DEVELOPMENT
 
@@ -1032,6 +1036,9 @@ JavaScript
 });
 
 </script>
+
+
+![images](https://github.com/priya-08B/files/assets/146112760/92f79d09-cc15-4301-9c0a-ea1227c292af)
 
 
 
